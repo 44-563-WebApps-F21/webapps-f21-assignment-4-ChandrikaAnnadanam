@@ -1,0 +1,100 @@
+.speech{
+ 
+    font-family:'Optima', 'sans-serif', Script, CASTELLAR; font-size: 20px;
+color: dark black;
+}
+ 
+.stage-direction{
+    font-family: 'Arial', 'American Typewriter', 'American Typewriter, serif', 'FreeMono', monospace, Monospace, sans-serif;
+    font-size: 21px;
+    color:rgba(90, 91, 92, 0.111);
+}
+.stage-direction:hover{
+    background-color: rgba(112, 42, 143, 0.400);
+}
+.name{
+    font-family: Luminari, fantasy, Arial Narrow, sans-serif, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color:pale blue;
+}
+.name:hover{
+    color: grey;
+   box-shadow: 8px 8px 8px 4px rgb(100, 96, 96);
+   border: 6px double rgb(200, 201, 40);
+}
+.PARKER{
+    color:darkblue;
+}
+.LORD DARLINGTON{
+    color:lightblue;
+}
+.LADY WINDEMERE{
+    color: teal;
+}
+.LADY AGATHYA{
+    color: darkpink;
+}
+.PARKER{
+    color: darkorchid;
+}
+table,th,td{
+    border: 3px dashed gray;    
+}
+table{
+    margin: 16px;
+    overflow: auto;
+    width: 75%;
+   border-collapse: collapse; 
+   height: 60px;
+}
+ 
+th{
+    background-color: rgba(100, 86, 200, 0.567);
+    color: rgb(245, 0, 0);
+}
+td{
+    padding: 9px; text-align: left;
+}
+th{
+    padding: 13px; text-align: center;
+}
+tr:parker{
+background-color:palered;
+}
+tr:nth-child(even){
+    background-color:babypink ;
+}
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;border: 2px silver; background-color:lightgreen;
+  }
+  
+  li.navbar-horizontal {
+    float: left;
+  }
+  
+  li a.navbar-horizontal {
+    display: block;
+    color: rgb(230, 30, 20);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: lightcoral;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+
+.name:parker{
+    color: darkgreen;
+   box-shadow: 15px 15px 15px 4px gray;
+   border: 4px double burlywood;
+}
